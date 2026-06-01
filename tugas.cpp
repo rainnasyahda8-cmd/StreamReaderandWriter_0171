@@ -8,12 +8,9 @@ int main()
     cout << "Awal Program" << endl;
     try
     {
-        
+        array <int, 3> data = { 1, 2 , 3 };
     }
-    catch(const std::exception& e)
-    {
-        std::cerr << e.what() << '\n';
-    }
+    
     
     
 }
